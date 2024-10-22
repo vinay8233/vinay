@@ -122,10 +122,12 @@ body{
 }
 .a{
     
-    background-image: url(https://t3.ftcdn.net/jpg/04/67/84/44/360_F_467844437_GcMWY8YN46bSzBfKdWpFGn9xkZaECc76.jpg);
+    background-image: url(https://img.freepik.com/free-photo/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus_1258-177096.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -148,10 +150,10 @@ mask: var(--mask);
 }
 
 .a h1{
-    color: white;
-    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
     text-align: center;
-    filter: drop-shadow(1px 1px 10px yellow);
+    filter: drop-shadow(4px 10px 2px rgb(2, 18, 65));
     
 }
 .a p{
@@ -1316,7 +1318,7 @@ footer .ins {
     }
 
 }
-@media(max-width:425px){
+@media(max-width:426px){
     .navbar{
         width: 100%;
     }
@@ -1327,12 +1329,13 @@ footer .ins {
         width: 50%;
     }
     .a h1{
-        font-size: 50px;
+        font-size: 50px !important;
     }
     .a{
-        background-image: url(https://t4.ftcdn.net/jpg/04/17/28/93/360_F_417289346_hrs0D4Lo8dSv3aWDqkQpRB0U9PbtFX6n.jpg);
+        background-image: url(https://img.freepik.com/free-photo/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-bus_1258-177096.jpg);
         background-size: cover;
         margin-top: 30px;
+        height: 400px;
     }
     .b section {
         width: 100%;
@@ -1372,13 +1375,13 @@ footer .ins {
     .e section .card {
         margin: 10px auto;
     }
-    footer span{
-        display: none;
-    }
+        footer span{
+            display: none;
+        }
     
 
 }
-@media(max-width:375px){
+@media(max-width:376px){
     .navbar{
         width: 100%;
     }
@@ -1389,7 +1392,7 @@ footer .ins {
         width: 50%;
     }
     .a h1{
-        font-size: 45px;
+        font-size: 45px !important;
     }
     .b span{
         font-size: 25px;
@@ -1408,6 +1411,9 @@ footer .ins {
 @media(max-width:320px){
     .d h2{
         font-size: 30px;
+    }
+    .a h1{
+      font-size: 38px !important;
     }
     .join-tab section .contant{
         padding: 0px 0px 0px 18px ;

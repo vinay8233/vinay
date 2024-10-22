@@ -1,0 +1,98 @@
+ 
+        .desk{
+            background-color: white;
+        }
+        .desk ul li{
+            margin:auto 10px;
+            padding: 5px 20px;
+            background-color: transparent;
+            
+        }
+        .desk .navbar-brand{
+            width: 20%;
+        }
+        .desk img{
+            width: 80%;
+        }
+
+        .desk ul li .nav-link:hover{
+           color: rgba(255, 103, 2, 0.932);
+        }
+        .desk ul li a{
+            font-size: 17px;
+        }
+        .desk .btn{
+            background-color:rgba(255, 103, 2, 0.932);
+            color: white !important ;
+            font-weight: bold;
+            padding: 10px 30px !important;
+        }
+        header{
+            background-color: black;
+            padding: 5px 10px;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        header a{
+            color: rgba(201, 153, 153, 0.871);
+            text-decoration: none;
+        }
+        /* .back :hover{
+            background-color: rgba(0, 0, 255, 0.433)  ;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        } */
+
+        .desk .hicon a{
+            margin-right:40px ;
+            color: white;
+        }
+        .footerl{
+            background-image: url(https://hessian.ai/wp-content/uploads/2022/03/AdobeStock_408552325_web.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: auto;
+        }
+        .footerl footer {
+            height: 500px;
+            background-color: rgba(0, 0, 0, 0);
+            padding-top: 70px;
+        }
+        .footerl footer img{
+            width: 100%;
+            background-color: white;
+        }
+        .footerl h2{
+            color: white;
+        }
+        .footerl p{
+            color: white;
+            /* text-align: justify; */
+        }
+        .footerl a{
+            text-decoration: none;
+            display:block;
+            color: white;
+            line-height: 30px;
+        }
+        .footerl a:hover{
+            text-decoration: underline;
+            color:rgba(255, 103, 2, 0.932) ;
+        }
+
+
+        @media(max-width:550px){
+            header{
+                display: none;
+            }
+        }
+        @media(max-width:428px){
+
+            .footer{
+                height: 700px;
+            }
+            
+        }
+        
+              

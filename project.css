@@ -543,24 +543,26 @@ body {
   .navbar{
     width: 100%;
 }
-.navbar-brand{
+/* .navbar-brand{
     width: 80%;
-}
+} */
 .navbar img{
   width: 50%;
 }
     .main{
         height: 500px;
+        width: 100%;
     }
-    .main h2{
-        font-size: 100px;
-        filter: drop-shadow(1px 5px 1px yellow);
-    letter-spacing: 5px;
-    }
+    .main h2 {
+      color: white;
+      font-size: 53px;
+      filter: drop-shadow(1px 10px 1px yellow);
+      letter-spacing: 10px;
+  }
     .main p{
         font-size: 30px;
         filter: drop-shadow(1px 1px 2px yellow);
-        letter-spacing: 5px;
+        letter-spacing: 1px;
     }
     .DESIGN h3{
         font-size: 40px;
@@ -582,9 +584,9 @@ body {
     .main{
         height: 430px;
     }
-    .navbar-brand{
+    /* .navbar-brand{
       width: 70%;
-  }
+  } */
     .main h2{
         font-size: 80px;
         filter: drop-shadow(1px 5px 1px yellow);

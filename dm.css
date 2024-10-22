@@ -1,0 +1,187 @@
+.dm-main{
+    background-image: url(https://leadproinfotech.com/wp-content/uploads/2024/06/dm.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    new_height = 600
+aspect_ratio = image.width / image.height
+new_width = int(new_height * aspect_ratio)
+resized_image = image.resize((new_width, new_height))
+
+}
+.trafic{
+    padding: 100px;
+}
+.trafic h2{
+    /* color: rgba(255, 103, 2, 0.932); */
+    color: white;
+    filter: drop-shadow(1px 2px 2px black);
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+
+}
+.background{
+    /* background-attachment: fixed;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5EgLsTICiz4J_YLdjrjwnq4guzRjtN8wi0YvgqMxT9GQ57tHbVgbPRk7U2XRQ6WAZYr0&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: white;
+    
+}
+.seo{
+    /* background-color: rgba(135, 207, 235, 0.078); */
+}
+.seo h3{
+    color: white;
+    filter: drop-shadow(1px 2px 2px black);
+}
+.seo .col{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.seo p{
+    text-align: justify;
+    font-size: 25px;
+    color: black;
+    
+    
+}
+.ads{
+    padding: 50px 0px;
+    /* background-color: rgba(135, 207, 235, 0.078); */
+   
+}
+.ads img{
+    width: 100%;
+}
+.ads .col p{
+    text-align: justify;
+    font-size: 25px;
+    color: black;
+    
+}
+.ads .col{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.ads h3{
+    color: white;
+    text-align: center;
+    filter: drop-shadow(1px 2px 2px black);
+}
+.web{
+    background-color: white;
+    padding: 50px 0px;
+}
+.web img{
+    width: 100%;
+}
+.web p{
+    text-align: justify;
+    font-size: 25px;
+    color: black;
+    
+    
+}
+.ads h2{
+    color: white;
+    filter: drop-shadow(1px 2px 2px black);
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+    /* padding: 50px 0px 0px 100px; */
+
+}
+.ads .adsdiv{
+    padding: 50px 0px;
+    width:  85%;
+    margin: auto;
+}
+.ads .p{
+  /* padding: 0px 100px ; */
+}
+
+
+
+@media(max-width:768px){
+    .dm-main{
+        background-image: url(https://www.boerberg.com/wp-content/uploads/2023/12/Digital-Marketing-2.jpg);
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .desk .navbar-brand{
+        width: 50% !important;
+    }
+    .dm-main h2{
+        font-size: 80px;
+        color: white;
+        filter: drop-shadow(2px 10px 1px black);
+    }
+    .row{
+        display: block;
+    }
+    .col{
+        width: 100%;
+    }
+    .seo .col{
+        display: block;
+        
+    }
+    .seo .col img{
+        width: 100%;
+        
+    }
+    .trafic {
+        padding: 30px;
+    }
+
+}
+
+@media(max-width:426px){
+    .dm-main{
+        height: 400px;
+    }
+    .dm-main h2{
+        font-size: 40px;
+        
+    }
+}
+
+
+@media(max-width:376px){
+    .dm-main{
+        height: 350px;
+    }
+    .dm-main h2{
+        font-size: 35px;
+        filter: drop-shadow(2px 5px 1px black);
+        
+    }
+    p{
+        font-size: 15px !important;
+        text-align: justify;
+    }
+}
+@media(max-width:321px){
+    .dm-main{
+        height: 300px;
+    }
+    .dm-main h2{
+        font-size: 30px !important;
+        font-weight: bold;
+        filter: drop-shadow(2px 5px 1px black);
+        
+    }
+    h2{
+        font-size: 15px !important;
+    }
+    p{
+        font-size: 15px !important;
+        text-align: justify;
+    }
+}
